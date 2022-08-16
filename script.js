@@ -52,7 +52,7 @@ function sound(key)
         case "f": audio = new Audio("/sounds/tom-2.mp3");
                   break;
         case "J":
-        case "j": audio = new Audio("/sounds/kick-bass.mp3");
+        case "j": audio = new Audio("kick-bass.mp3");
                   break;
         case "K":
         case "k": audio = new Audio("/sounds/tom-4.mp3");
