@@ -55,10 +55,10 @@ function sound(key)
         case "j": audio = new Audio("./kick-bass.mp3");
                   break;
         case "K":
-        case "k": audio = new Audio("/sounds/tom-4.mp3");
+        case "k": audio = new Audio("./sounds/tom-4.mp3");
                   break;
         case "L":
-        case "l": audio = new Audio("/sounds/crash.mp3");
+        case "l": audio = new Audio("./sounds/crash.mp3");
                   break;
         
     }
