@@ -40,19 +40,19 @@ function sound(key)
     switch(key)
     {
         case "A":
-        case "a": audio = new Audio("/sounds/tom-1.mp3");
+        case "a": audio = new Audio("./sounds/tom-1.mp3");
                   break;
         case "S":
-        case "s": audio = new Audio("/sounds/snare.mp3");
+        case "s": audio = new Audio("./sounds/snare.mp3");
                   break;
         case "D":
-        case "d": audio = new Audio("/sounds/tom-3.mp3");
+        case "d": audio = new Audio("./sounds/tom-3.mp3");
                   break;
         case "F":
-        case "f": audio = new Audio("/sounds/tom-2.mp3");
+        case "f": audio = new Audio("./sounds/tom-2.mp3");
                   break;
         case "J":
-        case "j": audio = new Audio("kick-bass.mp3");
+        case "j": audio = new Audio("./kick-bass.mp3");
                   break;
         case "K":
         case "k": audio = new Audio("/sounds/tom-4.mp3");
